@@ -1,25 +1,23 @@
-## My Task
+## Cobiro's Task Menu
 
-Hello Cobiro :)
+This project is a technical test Cobiro sent me in order to create a Restful API using PHP.
+For this project, I decided to work with Laravel because I like to work with artisan when I have to create an API.
 
-I tried to do my best with the time I had.
+The goal of this API was to be abble to create menu's which are composed of item's or submenu's (such as in the composite design pattern) creating different layers in this menu.
+Also it has to give the ability to create multiple menus, and to retrieve a specific, a specific layer or a specific item in the menu.
 
-So I tried to do all the bonus points for the API part, but I hadn't have enough time to do the PHP and Docker Bonus points.
+One of the requests was to decouple as much as possible the different controllers and elements in the application.
 
-I commented my work the best I could.
+The API provides a list of routes to handle the different behaviours we want to have using different HTTP verbs. They are all listed in the route/api.php file, but some example of the routes provided are :
 
-And to answer the question : 10 vs 1.000.000 menu items - what would you do differently?
+POST : /menus --> Create a new menu
+GET : /menus/{menu} --> Get an existing menu
+POST : /menus/{menu}/items --> Store a new item in a specific menu
+POST : /items --> Store an item with no menu
+GET : /menus/{menu}/depth --> Getting the depth of a menu (The number of layers)
 
-I think i would have created another way to count depth of a menu and the layer of an item by directly save it in the database and calculate it each time we have to (update, delete).
+I sent this project as a submission to Cobiro's exercise.
+I had some good feedback about my technical test and my interview, but they were looking for a Senior profile so I didn't went further in the process.
+I decided to keep this project in my repositories, because I think it was pretty complex project but small enough to be reviewed quickly.
 
-Also I would have added a limit to the get requests, by asking how many items the customer wants (-1 to have all). So it limits the size of the SQL requests.
-
-I hope my work will interest you.
-
-Best regards,
-
-Karim Morel.
-
-
-
-
+I hope it will interests you, if you have any questions, do not hesitate to contact me. (karimmorel.com)
