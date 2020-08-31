@@ -10,11 +10,11 @@ One of the requests was to decouple as much as possible the different controller
 
 The API provides a list of routes to handle the different behaviours we want to have using different HTTP verbs. They are all listed in the route/api.php file, but some example of the routes provided are :
 
-POST : /menus --> Create a new menu
-GET : /menus/{menu} --> Get an existing menu
-POST : /menus/{menu}/items --> Store a new item in a specific menu
-POST : /items --> Store an item with no menu
-GET : /menus/{menu}/depth --> Getting the depth of a menu (The number of layers)
+POST : /menus --> Create a new menu<br/>
+GET : /menus/{menu} --> Get an existing menu<br/>
+POST : /menus/{menu}/items --> Store a new item in a specific menu<br/>
+POST : /items --> Store an item with no menu<br/>
+GET : /menus/{menu}/depth --> Getting the depth of a menu (The number of layers)<br/>
 
 I sent this project as a submission to Cobiro's exercise.
 I had some good feedback about my technical test and my interview, but they were looking for a Senior profile so I didn't went further in the process.
