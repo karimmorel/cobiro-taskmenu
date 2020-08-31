@@ -18,6 +18,6 @@ GET : /menus/{menu}/depth --> Getting the depth of a menu (The number of layers)
 
 I sent this project as a submission to Cobiro's exercise.
 I had some good feedback about my technical test and my interview, but they were looking for a Senior profile so I didn't went further in the process.
-I decided to keep this project in my repositories, because I think it was pretty complex project but small enough to be reviewed quickly.
+I decided to keep this project in my repositories, because I think it was a pretty complex project but small enough to be reviewed quickly.
 
 I hope it will interests you, if you have any questions, do not hesitate to contact me. (karimmorel.com)
