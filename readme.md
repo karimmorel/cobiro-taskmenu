@@ -8,7 +8,7 @@ Also it has to give the ability to create multiple menus, and to retrieve a spec
 
 One of the requests was to decouple as much as possible the different controllers and elements in the application.
 
-The API provides a list of routes to handle the different behaviours we want to have using different HTTP verbs. They are all listed in the routes/api.php file, but some example of the routes provided are :
+The API provides a list of routes to handle the different behaviours we want to have using different HTTP verbs. They are all listed in the routes/api.php file, but some examples of the routes provided are :
 
 POST : /menus --> Create a new menu<br/>
 GET : /menus/{menu} --> Get an existing menu<br/>
