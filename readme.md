@@ -3,7 +3,7 @@
 This project is a technical test Cobiro sent me in order to create a Restful API using PHP.
 For this project, I decided to work with Laravel because I like to work with artisan when I have to create an API.
 
-The goal of this API was to be abble to create menus which are composed of items or submenus (such as in the composite design pattern) creating different layers in this menu.
+The goal of this API was to be able to create menus which are composed of items or submenus (such as in the composite design pattern) creating different layers in this menu.
 Also it has to give the ability to create multiple menus, and to retrieve a specific menu, a specific layer or a specific item in the menu.
 
 One of the requests was to decouple as much as possible the different controllers and elements in the application.
